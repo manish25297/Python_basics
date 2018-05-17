@@ -1,5 +1,5 @@
 from Tkinter import *
-import xlwt
+import xlwt,xlrd
 
 def submit():
     roll=int(line_input.get())
@@ -12,7 +12,8 @@ def submit():
     attendance.save("attend.xls")"""
     rb=xlwt.Workbook()
     sheet=rb.add_sheet("1")
-    sheet.write(1,1,"mnish")
+    sheet.write(0,0,roll)
+    sheet.write(0,1,name)
     rb.save("manish.xls")
     
 
