@@ -25,4 +25,4 @@ def send_mail(user,pwd,recipient,subject,body):
     #print"failed to send mail"
     
 
-send_mail("manish.25297@gmail.com","manishkumarsingh25297","anmol14789@gmail.com","helloSUBJECT","manishBODY")
+send_mail("manish.25297@gmail.com","m*password*7","anmol14789@gmail.com","helloSUBJECT","manishBODY")
